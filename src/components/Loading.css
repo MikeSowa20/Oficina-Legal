@@ -1,0 +1,23 @@
+/* Estilos customizados para o componente de Loading */
+
+.loading-spinner {
+  /* O Tailwind já lida com a maioria das propriedades, 
+     mas podemos adicionar refinamentos aqui se necessário */
+}
+
+@keyframes progress-animation {
+  0% { transform: translateX(-100%); }
+  50% { transform: translateX(0); }
+  100% { transform: translateX(100%); }
+}
+
+.loading-bar-progress {
+  animation: progress-animation 1.5s infinite linear;
+  transform-origin: left;
+}
+
+/* Garante que o backdrop blur funcione bem mesmo em navegadores antigos se necessário */
+.backdrop-blur-sm {
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+}
