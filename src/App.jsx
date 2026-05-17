@@ -15,7 +15,7 @@ import { LoadingProvider } from './context/LoadingContext'
 function App() {
   return (
     <LoadingProvider>
-      <BrowserRouter>
+      <BrowserRouter basename="/Oficina-Legal">
         <Nav/>
          <Routes>
             <Route path="/" element={<Home />} />
