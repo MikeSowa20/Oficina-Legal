@@ -23,7 +23,7 @@ function Nav() {
                 </li>
                 <hr className="border-e min-h-7" />
                 <li className="font-extrabold"> 
-                    <Link className="text-xl" to={"/home"}>Home</Link>
+                    <Link className="text-xl" to={"/"}>Home</Link>
                 </li>
                 <hr className="border-e min-h-7" />
                 <li className="font-extrabold">
